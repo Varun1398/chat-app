@@ -3,7 +3,7 @@ var app = express();
 var server = require('http').Server(app);
 var client = require('socket.io')(server).sockets; 
 var path = require('path');
-var ip = require('socket.io').listen(server);
+var ip = require('ip');
 var mongo = require('mongodb').MongoClient;
 var port = process.env.port || 8000;
 

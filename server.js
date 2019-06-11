@@ -5,7 +5,7 @@ var client = require('socket.io')(server).sockets;
 var path = require('path');
 var ip = require('ip');
 var mongo = require('mongodb').MongoClient;
-var port = process.env.port || 8080;
+var port = 8080;
 
 
 //Connect ot mongo

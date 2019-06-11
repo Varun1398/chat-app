@@ -27,7 +27,7 @@
   },
   "config": {
     "server": {
-      "port": 8080
+      "port": "https://chat-app-mongo-node.herokuapp.com/"
     },
     "db": {
       "url": "mongodb://localhost:27017/chatdb"
